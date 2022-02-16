@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20434" started-at="2022-02-16T07:07:45Z" finished-at="2022-02-16T07:08:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20434" started-at="2022-02-16T07:07:45Z" finished-at="2022-02-16T07:08:05Z">
+      <class name="parquetFileConcept.CreatingParquetFile">
+        <test-method status="PASS" signature="removingAParquetFile()[pri:0, instance:parquetFileConcept.CreatingParquetFile@a7e666]" name="removingAParquetFile" duration-ms="122" started-at="2022-02-16T12:37:45Z" description="Removing a Parquet file" finished-at="2022-02-16T12:37:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removingAParquetFile -->
+        <test-method status="PASS" signature="creatingParquetFile()[pri:1, instance:parquetFileConcept.CreatingParquetFile@a7e666]" name="creatingParquetFile" duration-ms="17832" started-at="2022-02-16T12:37:45Z" description="Creating a Parquet file for employees table" finished-at="2022-02-16T12:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingParquetFile -->
+        <test-method status="PASS" signature="readingParquetFile()[pri:2, instance:parquetFileConcept.CreatingParquetFile@a7e666]" name="readingParquetFile" duration-ms="2429" started-at="2022-02-16T12:38:03Z" finished-at="2022-02-16T12:38:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readingParquetFile -->
+      </class> <!-- parquetFileConcept.CreatingParquetFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
